@@ -300,7 +300,7 @@ def sort_results(results):
 #DISPLAY RESULTS
 def make_lookPretty_bus(results):
     if not results:
-        print('No results found. We do not have this person in our database')
+        print('No results found. We do not have this business in our database')
     else:
         for item in results:
                 print('-'*12)
@@ -311,7 +311,7 @@ def make_lookPretty_bus(results):
 
 def make_lookPretty_people(results):
     if not results:
-        print('No results found. We do not have this business in our database')
+        print('No results found. We do not have this people in our database')
     else:
         for item in results:
                 print('-'*12)
@@ -322,8 +322,8 @@ def make_lookPretty_people(results):
 
    
 if __name__=='__main__':       
-    main_Phonebook_bus()
-    #main_Phonebook_people()
+    #main_Phonebook_bus()
+    main_Phonebook_people()
     
 
 
